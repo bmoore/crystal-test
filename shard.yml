@@ -1,0 +1,17 @@
+name: kemal-skel
+version: 0.1.0
+
+authors:
+  - Brian Moore <Brian.Moore@LibertyMutual.com>
+
+targets:
+  kemal-skel:
+    main: src/kemal-skel.cr
+
+crystal: 0.23.1
+
+license: MIT
+
+dependencies:
+    kemal:
+        github: kemalcr/kemal
